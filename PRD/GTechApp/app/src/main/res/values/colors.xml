@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00437A</color>
+    <color name="colorPrimaryDark">#00437A</color>
+    <!--<color name="colorPrimaryDark">#125688</color>-->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#228B22</color>
+    <color name="text_color_main_tab_normal">#ff60656a</color>
+
+    <color name="colorLightGray">#a6abae</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="colorGray">#495C67</color>
+    <color name="colorClick">#e0e0e0</color>
+    <color name="colorBackroundWhite">#f0f2ea</color>
+    <color name="string1">#0b0b0b</color>
+    <color name="substring">#a6a6a6</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="control_background">#cc4285f4</color>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "866357933787",
+    "firebase_url": "https://gtechapp-af636.firebaseio.com",
+    "project_id": "gtechapp-af636",
+    "storage_bucket": "gtechapp-af636.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866357933787:android:97a8df89824ca582",
+        "android_client_info": {
+          "package_name": "dev.com.br.gtechapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866357933787-lt00uk7jt45g6uehivq1b9od03al1cuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlacperv8T1ywwY1mvBtcW7xvMX-OB5Xk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

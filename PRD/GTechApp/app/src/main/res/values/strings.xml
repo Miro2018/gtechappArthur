@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">GTechApp</string>
+
+    <string name="termo_link">https://docs.google.com/document/d/137A_PtlUQcuFzoa80rolsahq3oFH_emc-0J-UCrJSPc/edit#</string>
+
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_registros">Registros</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="hint_input_time">Insira a hora</string>
+    <string name="hint_input_date">Insira a data</string>
+    <string name="etc">Outros</string>
+    <string name="unit_blood_sugar_en">mmol/L</string>
+    <string name="blood_sugar_eat_after">Pós-Refeição</string>
+    <string name="blood_sugar_eat_before">Pré-Refeição</string>
+    <string name="blood_sugar_eat_cs">Solução Controle</string>
+    <string name="blood_sugar_eat_fasting">Jejum</string>
+    <string name="blood_sugar_title">Inserir Glicose</string>
+    <string name="blood_sugar_type_machine">Medidor de Glicose</string>
+    <string name="blood_sugar_type_user">Usuário</string>
+    <string name="fasting_hint">*Jejum é a não ingestão de comida, bebidas ou ambos por mais de 8 horas.</string>
+    <string name="btn_add">Adicionar</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- camera -->
+    <string name="picture">Capturar</string>
+    <string name="camera_error">Esse aparelho não\'t suporta a função camera.</string>
+    <string name="request_permission">Permiessão para acessar a câmera é ncessária</string>
+
+    <string name="facebook_app_id">1679743395454096</string>
+    <string name="fb_login_protocol_scheme">fb1679743395454096</string>
+
+    <string-array name="lista_genero">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+
+    <string-array name="lista_tipo_diabete">
+        <item>Tipo 1</item>
+        <item>Tipo 2</item>
+    </string-array>
+
+    <string-array name="lista_estado_alimentacao">
+        <item>Pós Refeição</item>
+        <item>Pré Refeição</item>
+        <item>Jejum</item>
+        <item>Solução Controle</item>
+    </string-array>
+
+    <string-array name="lista_tipo_nota">
+        <item>Outras</item>
+        <item>Refeição</item>
+        <item>Exercício</item>
+    </string-array>
+
+    <string-array name="lista_default">
+        <item></item>
+    </string-array>
+
+    <string-array name="lista_tipo_insulina">
+        <item>Ultrarrápida</item>
+        <item>Rápida</item>
+        <item>Ação intermediária</item>
+        <item>Longa duração</item>
+        <item>Pré-misturada regular</item>
+        <item>Pré-misturada análoga</item>
+    </string-array>
+
+    <string-array name="lista_produto_insulina_1">
+        <item>Apidra (Glulisina)</item>
+        <item>Humalog (Lispro)</item>
+        <item>NovoRapid (Asparte)</item>
+    </string-array>
+
+    <string-array name="lista_produto_insulina_2">
+        <item>Humulin</item>
+        <item>Novolin</item>
+    </string-array>
+
+    <string-array name="lista_produto_insulina_3">
+        <item>Humulin N</item>
+        <item>Novolin N</item>
+    </string-array>
+
+    <string-array name="lista_produto_insulina_4">
+        <item>Lantus (Glargina)</item>
+        <item>Levemir (Detemir)</item>
+        <item>Tresiba (Degludeca)</item>
+    </string-array>
+
+    <string-array name="lista_produto_insulina_5">
+        <item>Humulin 70/30</item>
+        <item>Novolin 70/30</item>
+    </string-array>
+
+    <string-array name="lista_produto_insulina_6">
+        <item>NovoMix 30</item>
+        <item>HumalogMix 25</item>
+        <item>HumalogMix 50</item>
+    </string-array>
+
+</resources>

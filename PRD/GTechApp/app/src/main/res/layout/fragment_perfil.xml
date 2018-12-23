@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:padding="20dp"
+             android:orientation="vertical">
+
+             <LinearLayout
+                 android:id="@+id/nom_usuario"
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true"
+                 android:layout_marginBottom="40dp">
+
+                 <LinearLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content">
+
+                     <TextView
+                         android:id="@+id/txtOla"
+                         android:text="Olá, "
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textSize="25dp"
+                         android:textColor="@color/colorGray"/>
+                     <TextView
+                         android:id="@+id/txtNomUsuario"
+                         android:text=""
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textSize="25dp"
+                         android:textColor="@color/colorGray"/>
+
+                 </LinearLayout>
+
+
+                 <TextView
+                     android:id="@+id/txtMsg1"
+                     android:text="Mantenha seu perfil atualizado"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="11dp"
+                     android:textColor="@color/colorGray"/>
+
+             </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"
+                 android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/dat_nascimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="@drawable/bg_shape_clickable"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtDatNasc1"
+                    android:text="Data de nascimento:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtDatNasc2"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"/>
+
+             <LinearLayout
+                 android:id="@+id/nom_genero"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtGenero1"
+                    android:text="Gênero:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                 <TextView
+                     android:id="@+id/txtGenero2"
+                     android:text=""
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"/>
+
+             <LinearLayout
+                 android:id="@+id/val_peso"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtPeso1"
+                    android:text="Peso(kg):"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtPeso2"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"/>
+
+             <LinearLayout
+                 android:id="@+id/val_altura"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtAltura1"
+                    android:text="Altura(cm):"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtAltura2"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"/>
+
+             <LinearLayout
+                 android:id="@+id/dat_inicio_diabete"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtInicioDiabete1"
+                    android:text="Data início diabete:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtInicioDiabete2"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"/>
+
+             <LinearLayout
+                 android:id="@+id/nom_tipo_diabete"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtTipoDiabete1"
+                    android:text="Tipo diabete:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtTipoDiabete2"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"/>
+
+             <LinearLayout
+                 android:id="@+id/val_hiper"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtHiper1"
+                    android:text="Hiper(mg/dl):"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                 <FrameLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content">
+
+                     <TextView
+                         android:id="@+id/txtHiper2"
+                         android:text=""
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+
+                     <TextView
+                         android:id="@+id/txtHiper3"
+                         android:text="Será usado 140 por padrão"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+
+                 </FrameLayout>
+
+
+            </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray"/>
+
+             <LinearLayout
+                 android:id="@+id/val_hipo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 android:background="@drawable/bg_shape_clickable"
+                 android:clickable="true">
+
+                <TextView
+                    android:id="@+id/txtHipo1"
+                    android:text="Hipo(mg/dl):"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                 <FrameLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content">
+
+                     <TextView
+                         android:id="@+id/txtHipo2"
+                         android:text=""
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+
+                     <TextView
+                         android:id="@+id/txtHipo3"
+                         android:text="Será usado 70 por padrão"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content" />
+
+                 </FrameLayout>
+
+            </LinearLayout>
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/btn_sign_out_google"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Sair"
+                    android:background="@drawable/common_google_signin_btn_text_light"
+                    android:visibility="visible"/>
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/btn_fb_login_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/llSair"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/btn_sign_out_firebase"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sair"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

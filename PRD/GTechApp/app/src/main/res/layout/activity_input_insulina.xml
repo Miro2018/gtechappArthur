@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hailo_wallet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg_gtech_2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/llDosagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/roun_rect_white">
+
+                <TextView
+                    android:id="@+id/txtDosagem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dosagem(un)"
+                    android:textColor="@color/string1"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/edtDosagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/substring"
+                    android:background="@color/transparent"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:imeOptions="actionDone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTipoInsulina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/roun_rect_white"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtTipoInsulina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tipo Insulina"
+                    android:textColor="@color/string1"
+                    android:textSize="16sp"/>
+
+                <Spinner
+                    android:id="@+id/spnTipoInsulina"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/substring"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llProdutoInsulina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/roun_rect_white"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtProdutoInsulina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Produto Insulina"
+                    android:textColor="@color/string1"
+                    android:textSize="16sp"/>
+
+                <Spinner
+                    android:id="@+id/spnProdutoInsulina"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/substring"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDatRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/roun_rect_white"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtDatRegistro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data"
+                    android:textColor="@color/string1"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/edtDatRegsitro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/substring"
+                    android:background="@color/transparent"
+                    android:lines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llHorRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/roun_rect_white"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtHorRegistro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hora"
+                    android:textColor="@color/string1"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/edtHorRegsitro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left"
+                    android:textColor="@color/substring"
+                    android:background="@color/transparent"
+                    android:lines="1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnConfirmar"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roun_rect_gray"
+                android:text="CONFIRMAR"
+                android:textColor="#fff"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
